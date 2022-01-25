@@ -1,8 +1,8 @@
 if __name__=="__main__":
   from math import sqrt
-a =float(input("коэффицент а"))
-b =float(input("коэффицент b" ))
-c =float(input("коэффицент c"))
+a =int(input("коэффицент а"))
+b =int(input("коэффицент b" ))
+c =int(input("коэффицент c"))
 D = b ** 2 - (4 * a * c)
 if D < 0:
     print('Корней нет')
